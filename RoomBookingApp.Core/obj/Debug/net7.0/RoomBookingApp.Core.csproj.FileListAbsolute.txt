@@ -1,0 +1,12 @@
+C:\Users\DimitriAndre\source\repos\RoomBookingApp\RoomBookingApp.Core\bin\Debug\net7.0\RoomBookingApp.Core.deps.json
+C:\Users\DimitriAndre\source\repos\RoomBookingApp\RoomBookingApp.Core\bin\Debug\net7.0\RoomBookingApp.Core.dll
+C:\Users\DimitriAndre\source\repos\RoomBookingApp\RoomBookingApp.Core\bin\Debug\net7.0\RoomBookingApp.Core.pdb
+C:\Users\DimitriAndre\source\repos\RoomBookingApp\RoomBookingApp.Core\obj\Debug\net7.0\RoomBookingApp.Core.csproj.AssemblyReference.cache
+C:\Users\DimitriAndre\source\repos\RoomBookingApp\RoomBookingApp.Core\obj\Debug\net7.0\RoomBookingApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DimitriAndre\source\repos\RoomBookingApp\RoomBookingApp.Core\obj\Debug\net7.0\RoomBookingApp.Core.AssemblyInfoInputs.cache
+C:\Users\DimitriAndre\source\repos\RoomBookingApp\RoomBookingApp.Core\obj\Debug\net7.0\RoomBookingApp.Core.AssemblyInfo.cs
+C:\Users\DimitriAndre\source\repos\RoomBookingApp\RoomBookingApp.Core\obj\Debug\net7.0\RoomBookingApp.Core.csproj.CoreCompileInputs.cache
+C:\Users\DimitriAndre\source\repos\RoomBookingApp\RoomBookingApp.Core\obj\Debug\net7.0\RoomBookingApp.Core.dll
+C:\Users\DimitriAndre\source\repos\RoomBookingApp\RoomBookingApp.Core\obj\Debug\net7.0\refint\RoomBookingApp.Core.dll
+C:\Users\DimitriAndre\source\repos\RoomBookingApp\RoomBookingApp.Core\obj\Debug\net7.0\RoomBookingApp.Core.pdb
+C:\Users\DimitriAndre\source\repos\RoomBookingApp\RoomBookingApp.Core\obj\Debug\net7.0\ref\RoomBookingApp.Core.dll
