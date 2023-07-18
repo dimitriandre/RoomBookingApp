@@ -19,23 +19,24 @@ namespace RoomBookingAppCore
             {
                 FullName = "Test Name",
                 Email = "test@request.com",
-            Date = new DateTime(2021, 10, 20)
+                Date = new DateTime(2021, 10, 20)
             };
+
             var processor = new RoomBookingRequestProcessor();
             
             //Act
             RoomBookingResult result = processor.BookRoom(request);
 
             //Assert
-            //Assert.NotNull(result);
-            //Assert.Equal(request.FullName, result.FullName);
-            //Assert.Equal(request.Email, result.Email);
-            //Assert.Equal(request.Date, result.Date);
+            Assert.NotNull(result);
+            Assert.Equal(request.FullName, result.FullName);
+            Assert.Equal(request.Email, result.Email);
+            Assert.Equal(request.Date, result.Date);
 
-            result.ShouldNotBeNull();
-            result.FullName.ShouldBe(request.FullName);
-            result.Email.ShouldBe(request.Email);
-            result.Date.ShouldBe(request.Date);
+            //result.ShouldNotBeNull();
+            //result.FullName.ShouldBe(request.FullName);
+            //result.Email.ShouldBe(request.Email);
+            //result.Date.ShouldBe(request.Date);
         }
     }
 }
