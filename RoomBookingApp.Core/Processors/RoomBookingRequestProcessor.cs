@@ -4,8 +4,9 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using RoomBookingApp.Core.Models;
 
-namespace RoomBookingAppCore
+namespace RoomBookingApp.Core.Processors
 {
     public class RoomBookingRequestProcessor
     {
@@ -13,7 +14,7 @@ namespace RoomBookingAppCore
         {
         }
 
-        internal RoomBookingResult BookRoom(RoomBookingRequest bookingRequest)
+        public RoomBookingResult BookRoom(RoomBookingRequest bookingRequest)
         {
             return new RoomBookingResult
             {

@@ -1802,6 +1802,16 @@
         "build": {
           "build/net6.0/xunit.runner.visualstudio.props": {}
         }
+      },
+      "RoomBookingApp.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/RoomBookingApp.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RoomBookingApp.Core.dll": {}
+        }
       }
     }
   },
@@ -5762,11 +5772,17 @@
         "xunit.runner.visualstudio.2.5.0.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "RoomBookingApp.Core/1.0.0": {
+      "type": "project",
+      "path": "../RoomBookingApp.Core/RoomBookingApp.Core.csproj",
+      "msbuildProject": "../RoomBookingApp.Core/RoomBookingApp.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
       "Microsoft.NET.Test.Sdk >= 17.6.3",
+      "RoomBookingApp.Core >= 1.0.0",
       "Shouldly >= 4.2.1",
       "coverlet.collector >= 6.0.0",
       "xunit >= 2.5.0",
@@ -5799,7 +5815,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\DimitriAndre\\source\\repos\\RoomBookingApp\\RoomBookingApp.Core\\RoomBookingApp.Core.csproj": {
+              "projectPath": "C:\\Users\\DimitriAndre\\source\\repos\\RoomBookingApp\\RoomBookingApp.Core\\RoomBookingApp.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

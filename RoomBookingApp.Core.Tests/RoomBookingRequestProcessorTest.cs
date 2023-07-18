@@ -6,6 +6,8 @@ using System.Text;
 using System.Threading.Tasks;
 using Xunit;
 using Shouldly;
+using RoomBookingApp.Core.Models;
+using RoomBookingApp.Core.Processors;
 
 namespace RoomBookingAppCore
 {
