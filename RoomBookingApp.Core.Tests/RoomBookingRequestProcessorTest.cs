@@ -25,7 +25,7 @@ namespace RoomBookingAppCore
                 Email = "test@request.com",
                 Date = new DateTime(2021, 10, 20)
             };
-            _availableRooms = new List<Room>() { new Room() };
+            _availableRooms = new List<Room>() { new Room() { Id = 1 } };
             _roomBookingServiceMock = new Mock<IRoomBookingService>();
             _roomBookingServiceMock.Setup(q => q.GetAvailableRooms(_request.Date))
                 .Returns(_availableRooms);
@@ -35,7 +35,6 @@ namespace RoomBookingAppCore
         [Fact]
         public void Should_Return_Room_Booking_Response_With_Request_Values()
         {
-
             //Act
             RoomBookingResult result = _processor.BookRoom(_request);
 
@@ -76,6 +75,7 @@ namespace RoomBookingAppCore
             savedBooking.FullName.ShouldBe(_request.FullName);
             savedBooking.Email.ShouldBe(_request.Email);
             savedBooking.Date.ShouldBe(_request.Date);
+            savedBooking.RoomId.ShouldBe(_availableRooms.First().Id);
         }
 
 
