@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using RoomBookingApp.Core.DataServices;
 using RoomBookingApp.Core.Domain;
 using RoomBookingApp.Core.Models;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace RoomBookingApp.Core.Processors
 {
@@ -19,21 +20,21 @@ namespace RoomBookingApp.Core.Processors
             this._roomBookingService = roomBookingService;
         }
 
-        public RoomBookingResult BookRoom(RoomBooking bookingRequest)
+        public RoomBookingResult BookRoom(RoomBookingRequest bookingRequest)
         {
             if (bookingRequest is null)
             {
                 throw new ArgumentNullException(nameof(bookingRequest));
             }
 
-            _roomBookingService.Save(new RoomBooking
-            {
-                FullName = bookingRequest.FullName,
-                Email = bookingRequest.Email,
-                Date = bookingRequest.Date
-            });
+            _roomBookingService.Save(CreateRoomBookingObject<RoomBooking>(bookingRequest));
 
-            return new RoomBookingResult
+            return CreateRoomBookingObject<RoomBookingResult>(bookingRequest);
+        }
+        private static TRoomBooking CreateRoomBookingObject<TRoomBooking>(RoomBookingRequest bookingRequest) where TRoomBooking 
+            : RoomBookingBase, new()
+        {
+            return new TRoomBooking
             {
                 FullName = bookingRequest.FullName,
                 Email = bookingRequest.Email,

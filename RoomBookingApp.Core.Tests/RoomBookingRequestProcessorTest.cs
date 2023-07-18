@@ -12,13 +12,13 @@ namespace RoomBookingAppCore
     public class RoomBookingRequestProcessorTest
     {
         private RoomBookingRequestProcessor _processor;
-        private RoomBooking _request;
+        private RoomBookingRequest _request;
         private Mock<IRoomBookingService> _roomBookingServiceMock;
 
         public RoomBookingRequestProcessorTest()
         {
             
-            _request = new RoomBooking
+            _request = new RoomBookingRequest
             {
                 FullName = "Test Name",
                 Email = "test@request.com",
