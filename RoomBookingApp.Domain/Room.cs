@@ -1,7 +1,8 @@
-﻿namespace RoomBookingApp.Core.Domain
+﻿namespace RoomBookingApp.Domain.BaseModels
 {
     public class Room
     {
         public int Id { get; set; }
+        public string Name { get; set; }    
     }
 }

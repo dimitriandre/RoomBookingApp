@@ -1,11 +1,10 @@
 ﻿using Xunit;
 using Shouldly;
-using RoomBookingApp.Core.Models;
-using RoomBookingApp.Core.Domain;
 using RoomBookingApp.Core.Processors;
 using RoomBookingApp.Core.DataServices;
 using Moq;
 using RoomBookingApp.Core.Enums;
+using RoomBookingApp.Domain.BaseModels;
 
 namespace RoomBookingAppCore
 {

@@ -1,13 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using RoomBookingApp.Core.DataServices;
-using RoomBookingApp.Core.Domain;
-using RoomBookingApp.Core.Models;
-using static System.Runtime.InteropServices.JavaScript.JSType;
+﻿using RoomBookingApp.Core.DataServices;
+using RoomBookingApp.Domain.BaseModels;
 
 namespace RoomBookingApp.Core.Processors
 {

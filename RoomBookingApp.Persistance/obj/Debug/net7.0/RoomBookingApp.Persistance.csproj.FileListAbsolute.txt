@@ -1,0 +1,12 @@
+C:\Users\DimitriAndre\source\repos\RoomBookingApp\RoomBookingApp.Persistance\bin\Debug\net7.0\RoomBookingApp.Persistance.deps.json
+C:\Users\DimitriAndre\source\repos\RoomBookingApp\RoomBookingApp.Persistance\bin\Debug\net7.0\RoomBookingApp.Persistance.dll
+C:\Users\DimitriAndre\source\repos\RoomBookingApp\RoomBookingApp.Persistance\bin\Debug\net7.0\RoomBookingApp.Persistance.pdb
+C:\Users\DimitriAndre\source\repos\RoomBookingApp\RoomBookingApp.Persistance\obj\Debug\net7.0\RoomBookingApp.Persistance.csproj.AssemblyReference.cache
+C:\Users\DimitriAndre\source\repos\RoomBookingApp\RoomBookingApp.Persistance\obj\Debug\net7.0\RoomBookingApp.Persistance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DimitriAndre\source\repos\RoomBookingApp\RoomBookingApp.Persistance\obj\Debug\net7.0\RoomBookingApp.Persistance.AssemblyInfoInputs.cache
+C:\Users\DimitriAndre\source\repos\RoomBookingApp\RoomBookingApp.Persistance\obj\Debug\net7.0\RoomBookingApp.Persistance.AssemblyInfo.cs
+C:\Users\DimitriAndre\source\repos\RoomBookingApp\RoomBookingApp.Persistance\obj\Debug\net7.0\RoomBookingApp.Persistance.csproj.CoreCompileInputs.cache
+C:\Users\DimitriAndre\source\repos\RoomBookingApp\RoomBookingApp.Persistance\obj\Debug\net7.0\RoomBookingApp.Persistance.dll
+C:\Users\DimitriAndre\source\repos\RoomBookingApp\RoomBookingApp.Persistance\obj\Debug\net7.0\refint\RoomBookingApp.Persistance.dll
+C:\Users\DimitriAndre\source\repos\RoomBookingApp\RoomBookingApp.Persistance\obj\Debug\net7.0\RoomBookingApp.Persistance.pdb
+C:\Users\DimitriAndre\source\repos\RoomBookingApp\RoomBookingApp.Persistance\obj\Debug\net7.0\ref\RoomBookingApp.Persistance.dll

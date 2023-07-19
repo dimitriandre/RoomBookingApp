@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "RoomBookingApp.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/RoomBookingApp.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RoomBookingApp.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "RoomBookingApp.Domain/1.0.0": {
+      "type": "project",
+      "path": "../RoomBookingApp.Domain/RoomBookingApp.Domain.csproj",
+      "msbuildProject": "../RoomBookingApp.Domain/RoomBookingApp.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "RoomBookingApp.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\DimitriAndre\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\DimitriAndre\\source\\repos\\RoomBookingApp\\RoomBookingApp.Domain\\RoomBookingApp.Domain.csproj": {
+              "projectPath": "C:\\Users\\DimitriAndre\\source\\repos\\RoomBookingApp\\RoomBookingApp.Domain\\RoomBookingApp.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
