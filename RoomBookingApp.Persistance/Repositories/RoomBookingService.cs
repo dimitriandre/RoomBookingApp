@@ -17,7 +17,11 @@ namespace RoomBookingApp.Persistance.Repositories
         }
         public IEnumerable<Room> GetAvailableRooms(DateTime date)
         {
-            throw new NotImplementedException();
+            var unAvailableRooms = _context.RoomBookings.Where(q => q.Date == date).Select(q => q.RoomId).ToList();
+
+            var availableRooms = _context.Rooms.Where(q => unAvailableRooms.Contains(q.Id) == false).ToList();
+
+            return availableRooms;
         }
 
         public void Save(RoomBooking roomBooking)
