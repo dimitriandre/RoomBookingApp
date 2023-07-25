@@ -1,0 +1,358 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\DimitriAndre\\source\\repos\\RoomBookingApp\\RoomBookingApp.Api.Tests\\RoomBookingApp.Api.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\DimitriAndre\\source\\repos\\RoomBookingApp\\RoomBookingApp.Api.Tests\\RoomBookingApp.Api.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DimitriAndre\\source\\repos\\RoomBookingApp\\RoomBookingApp.Api.Tests\\RoomBookingApp.Api.Tests.csproj",
+        "projectName": "RoomBookingApp.Api.Tests",
+        "projectPath": "C:\\Users\\DimitriAndre\\source\\repos\\RoomBookingApp\\RoomBookingApp.Api.Tests\\RoomBookingApp.Api.Tests.csproj",
+        "packagesPath": "C:\\Users\\DimitriAndre\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DimitriAndre\\source\\repos\\RoomBookingApp\\RoomBookingApp.Api.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\DimitriAndre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\DimitriAndre\\source\\repos\\RoomBookingApp\\RoomBookingApp.Api\\RoomBookingApp.Api.csproj": {
+                "projectPath": "C:\\Users\\DimitriAndre\\source\\repos\\RoomBookingApp\\RoomBookingApp.Api\\RoomBookingApp.Api.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.3.2, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.18.4, )"
+            },
+            "Shouldly": {
+              "target": "Package",
+              "version": "[4.2.1, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\DimitriAndre\\source\\repos\\RoomBookingApp\\RoomBookingApp.Api\\RoomBookingApp.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DimitriAndre\\source\\repos\\RoomBookingApp\\RoomBookingApp.Api\\RoomBookingApp.Api.csproj",
+        "projectName": "RoomBookingApp.Api",
+        "projectPath": "C:\\Users\\DimitriAndre\\source\\repos\\RoomBookingApp\\RoomBookingApp.Api\\RoomBookingApp.Api.csproj",
+        "packagesPath": "C:\\Users\\DimitriAndre\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DimitriAndre\\source\\repos\\RoomBookingApp\\RoomBookingApp.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\DimitriAndre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\DimitriAndre\\source\\repos\\RoomBookingApp\\RoomBookingApp.Core\\RoomBookingApp.Core.csproj": {
+                "projectPath": "C:\\Users\\DimitriAndre\\source\\repos\\RoomBookingApp\\RoomBookingApp.Core\\RoomBookingApp.Core.csproj"
+              },
+              "C:\\Users\\DimitriAndre\\source\\repos\\RoomBookingApp\\RoomBookingApp.Persistance\\RoomBookingApp.Persistance.csproj": {
+                "projectPath": "C:\\Users\\DimitriAndre\\source\\repos\\RoomBookingApp\\RoomBookingApp.Persistance\\RoomBookingApp.Persistance.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.Data.Sqlite.Core": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\DimitriAndre\\source\\repos\\RoomBookingApp\\RoomBookingApp.Core\\RoomBookingApp.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DimitriAndre\\source\\repos\\RoomBookingApp\\RoomBookingApp.Core\\RoomBookingApp.Core.csproj",
+        "projectName": "RoomBookingApp.Core",
+        "projectPath": "C:\\Users\\DimitriAndre\\source\\repos\\RoomBookingApp\\RoomBookingApp.Core\\RoomBookingApp.Core.csproj",
+        "packagesPath": "C:\\Users\\DimitriAndre\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DimitriAndre\\source\\repos\\RoomBookingApp\\RoomBookingApp.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\DimitriAndre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\DimitriAndre\\source\\repos\\RoomBookingApp\\RoomBookingApp.Domain\\RoomBookingApp.Domain.csproj": {
+                "projectPath": "C:\\Users\\DimitriAndre\\source\\repos\\RoomBookingApp\\RoomBookingApp.Domain\\RoomBookingApp.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\DimitriAndre\\source\\repos\\RoomBookingApp\\RoomBookingApp.Domain\\RoomBookingApp.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DimitriAndre\\source\\repos\\RoomBookingApp\\RoomBookingApp.Domain\\RoomBookingApp.Domain.csproj",
+        "projectName": "RoomBookingApp.Domain",
+        "projectPath": "C:\\Users\\DimitriAndre\\source\\repos\\RoomBookingApp\\RoomBookingApp.Domain\\RoomBookingApp.Domain.csproj",
+        "packagesPath": "C:\\Users\\DimitriAndre\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DimitriAndre\\source\\repos\\RoomBookingApp\\RoomBookingApp.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\DimitriAndre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\DimitriAndre\\source\\repos\\RoomBookingApp\\RoomBookingApp.Persistance\\RoomBookingApp.Persistance.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DimitriAndre\\source\\repos\\RoomBookingApp\\RoomBookingApp.Persistance\\RoomBookingApp.Persistance.csproj",
+        "projectName": "RoomBookingApp.Persistance",
+        "projectPath": "C:\\Users\\DimitriAndre\\source\\repos\\RoomBookingApp\\RoomBookingApp.Persistance\\RoomBookingApp.Persistance.csproj",
+        "packagesPath": "C:\\Users\\DimitriAndre\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DimitriAndre\\source\\repos\\RoomBookingApp\\RoomBookingApp.Persistance\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\DimitriAndre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\DimitriAndre\\source\\repos\\RoomBookingApp\\RoomBookingApp.Core\\RoomBookingApp.Core.csproj": {
+                "projectPath": "C:\\Users\\DimitriAndre\\source\\repos\\RoomBookingApp\\RoomBookingApp.Core\\RoomBookingApp.Core.csproj"
+              },
+              "C:\\Users\\DimitriAndre\\source\\repos\\RoomBookingApp\\RoomBookingApp.Domain\\RoomBookingApp.Domain.csproj": {
+                "projectPath": "C:\\Users\\DimitriAndre\\source\\repos\\RoomBookingApp\\RoomBookingApp.Domain\\RoomBookingApp.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

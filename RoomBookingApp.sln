@@ -11,7 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RoomBookingApp.Domain", "Ro
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RoomBookingApp.Persistance", "RoomBookingApp.Persistance\RoomBookingApp.Persistance.csproj", "{FEA3A727-0825-4DB0-AFF5-A5C2C9ADDD81}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoomBookingApp.Persistence.Test.cs", "RoomBookingApp.Persistence.Test.cs\RoomBookingApp.Persistence.Test.cs.csproj", "{41623F13-F483-41B2-9EDE-F1E671E2512E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RoomBookingApp.Persistence.Test.cs", "RoomBookingApp.Persistence.Test.cs\RoomBookingApp.Persistence.Test.cs.csproj", "{41623F13-F483-41B2-9EDE-F1E671E2512E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoomBookingApp.Api", "RoomBookingApp.Api\RoomBookingApp.Api.csproj", "{728F8088-9385-46B9-BA33-1F85F86635C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoomBookingApp.Api.Tests", "RoomBookingApp.Api.Tests\RoomBookingApp.Api.Tests.csproj", "{92046A56-D4BB-43CA-9A1E-EFE00B1C8325}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{41623F13-F483-41B2-9EDE-F1E671E2512E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{41623F13-F483-41B2-9EDE-F1E671E2512E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{41623F13-F483-41B2-9EDE-F1E671E2512E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{728F8088-9385-46B9-BA33-1F85F86635C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{728F8088-9385-46B9-BA33-1F85F86635C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{728F8088-9385-46B9-BA33-1F85F86635C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{728F8088-9385-46B9-BA33-1F85F86635C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92046A56-D4BB-43CA-9A1E-EFE00B1C8325}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92046A56-D4BB-43CA-9A1E-EFE00B1C8325}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92046A56-D4BB-43CA-9A1E-EFE00B1C8325}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92046A56-D4BB-43CA-9A1E-EFE00B1C8325}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
