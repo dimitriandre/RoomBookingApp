@@ -3,7 +3,7 @@ using RoomBookingApp.Domain.BaseModels;
 
 namespace RoomBookingApp.Core.Processors
 {
-    public class RoomBookingRequestProcessor
+    public class RoomBookingRequestProcessor : IRoomBookingRequestProcessor
     {
         private readonly IRoomBookingService _roomBookingService;
 
@@ -22,7 +22,7 @@ namespace RoomBookingApp.Core.Processors
             var availableRooms = _roomBookingService.GetAvailableRooms(bookingRequest.Date);
             var result = CreateRoomBookingObject<RoomBookingResult>(bookingRequest);
 
-            if(availableRooms.Count() > 0)
+            if (availableRooms.Count() > 0)
             {
                 var room = availableRooms.First();
                 var roomBooking = CreateRoomBookingObject<RoomBooking>(bookingRequest);
@@ -39,7 +39,7 @@ namespace RoomBookingApp.Core.Processors
 
             return result;
         }
-        private static TRoomBooking CreateRoomBookingObject<TRoomBooking>(RoomBookingRequest bookingRequest) where TRoomBooking 
+        private static TRoomBooking CreateRoomBookingObject<TRoomBooking>(RoomBookingRequest bookingRequest) where TRoomBooking
             : RoomBookingBase, new()
         {
             return new TRoomBooking
