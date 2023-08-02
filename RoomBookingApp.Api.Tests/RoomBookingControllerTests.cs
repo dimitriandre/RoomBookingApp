@@ -1,6 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using Microsoft.Identity.Client;
 using Moq;
 using RoomBookingApp.Api.Controllers;
 using RoomBookingApp.Core.Enums;

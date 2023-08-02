@@ -15,3 +15,5 @@ C:\Users\DimitriAndre\source\repos\RoomBookingApp\RoomBookingApp.Persistance\bin
 C:\Users\DimitriAndre\source\repos\RoomBookingApp\RoomBookingApp.Persistance\bin\Debug\net7.0\RoomBookingApp.Core.pdb
 C:\Users\DimitriAndre\source\repos\RoomBookingApp\RoomBookingApp.Persistance\bin\Debug\net7.0\RoomBookingApp.Domain.pdb
 C:\Users\DimitriAndre\source\repos\RoomBookingApp\RoomBookingApp.Persistance\obj\Debug\net7.0\RoomBookingApp.Persistance.csproj.CopyComplete
+C:\Users\DimitriAndre\source\repos\RoomBookingApp\RoomBookingApp.Persistance\bin\Debug\net7.0\RoomBookingApp.Persistance.runtimeconfig.json
+C:\Users\DimitriAndre\source\repos\RoomBookingApp\RoomBookingApp.Persistance\obj\Debug\net7.0\RoomBookingApp.Persistance.genruntimeconfig.cache
